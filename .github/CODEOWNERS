@@ -1,0 +1,42 @@
+# CODEOWNERS file for logging-app-945
+# Global owners - will be requested for all PRs
+* @Armor-test/unit-devops @Armor-test/grp-payments @Armor-test/squad-tooling
+
+# Directory ownership
+/views/ @Armor-test/squad-ml @Armor-test/squad-mobile
+/hooks/ @Armor-test/team-frontend @Armor-test/grp-storage
+/extensions/ @Armor-test/unit-test @Armor-test/grp-payments @Armor-test/grp-search
+/auth/ @Armor-test/squad-mobile @Armor-test/squad-research @Armor-test/squad-frontend
+/lib/ @Armor-test/team-core @Armor-test/dept-billing @Armor-test/dept-automation
+/test/ @Armor-test/dept-reliability @Armor-test/squad-qa
+/src/ @Armor-test/team-core @Armor-test/team-frontend
+/vendor/ @Armor-test/dept-api @Armor-test/team-governance @Armor-test/squad-ml
+/spec/ @Armor-test/unit-devops @Armor-test/squad-ux
+/docs/ @Armor-test/team-governance @Armor-test/unit-test @Armor-test/grp-search
+/internal/ @Armor-test/unit-governance @Armor-test/squad-ux @Armor-test/dept-release
+/ui/ @Armor-test/dept-identity @Armor-test/grp-ui @Armor-test/grp-reporting
+/core/ @Armor-test/squad-search @Armor-test/team-logging @Armor-test/squad-ux
+/helpers/ @Armor-test/grp-api @Armor-test/unit-test @Armor-test/grp-reporting
+/controllers/ @Armor-test/team-security @Armor-test/squad-product
+
+# File type ownership
+*.scala @Armor-test/dept-ui @Armor-test/team-research
+*.kt @Armor-test/squad-tooling @Armor-test/squad-payments @Armor-test/dept-automation
+*.md @Armor-test/team-frontend @Armor-test/squad-reporting
+*.cpp @Armor-test/squad-apps @Armor-test/grp-api @Armor-test/squad-cache
+*.scss @Armor-test/squad-research @Armor-test/dept-notifications
+*.c @Armor-test/grp-reporting @Armor-test/squad-qa
+*.jsx @Armor-test/dept-api @Armor-test/squad-qa @Armor-test/squad-cloud
+*.rb @Armor-test/dept-api @Armor-test/dept-billing
+*.java @Armor-test/dept-automation @Armor-test/grp-ui
+*.rs @Armor-test/grp-payments @Armor-test/squad-ml
+*.py @Armor-test/squad-apps @Armor-test/dept-logging @Armor-test/dept-reliability
+*.proto @Armor-test/dept-logging @Armor-test/squad-product
+*.tf @Armor-test/grp-storage @Armor-test/dept-security
+*.sh @Armor-test/team-research @Armor-test/squad-tooling @Armor-test/squad-cache
+*.graphql @Armor-test/unit-test @Armor-test/squad-reporting
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
